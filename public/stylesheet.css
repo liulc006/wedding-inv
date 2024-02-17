@@ -30,5 +30,11 @@
 }
 
 body {
-    margin: none;
+    margin: 0;
+    background-color: var(--light-pink);
+}
+
+#title {
+    font-family: 'Waterfall';
+    color: var(--bright-white);
 }
