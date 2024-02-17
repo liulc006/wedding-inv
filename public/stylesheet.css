@@ -23,6 +23,12 @@
     font-weight: bold;
 }
 
+:root{
+    --dark-pink: #AB6874;
+    --light-pink: #ECCAD0;
+    --bright-white: #FCF9FA;
+}
+
 body {
     margin: none;
 }
