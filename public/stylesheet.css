@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Waterfall';
+    src: local('Waterfall-Regular'),
+        url('./fonts/Waterfall/Waterfall-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ma Shan Zheng';
+    src: local('MaShanZheng-Regular'),
+        url('./fonts/Ma_Shan_Zheng/MaShanZheng-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Aref Ruqaa';
+    src: local('ArefRuqaa-Regular'),
+        url('./fonts/Aref_Ruqaa/ArefRuqaa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Aref Ruqaa';
+    src: local('ArefRuqaa-bold'),
+        url('./fonts/Aref_Ruqaa/ArefRuqaa-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    margin: none;
+}
