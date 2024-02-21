@@ -27,7 +27,7 @@ const App = () => {
                     <hr className="horizontal-line" style={{width:'25%'}}/>
                     <hr className="horizontal-line" style={{width:'60%'}}/>
                     <p className="text-english">WE ARE GETTING MARRIED</p>
-                    <p className="text-chinese">我们要结婚啦</p>
+                    <p className="text-chinese" style={{margin:'1rem'}}>我们要结婚啦</p>
                     <p className="text-english"><span>October 5th 2024 | </span><span className="text-chinese">2024年10月5号</span></p>
                     <hr className="horizontal-line" style={{width:'60%'}}/>
                     <hr className="horizontal-line" style={{width:'25%'}}/>
@@ -49,8 +49,18 @@ const App = () => {
                     style={{objectFit:'contain', width:'80%'}}
                     />
                 </div>
-                <div style={{flex:'1', display:'flex', justifyContent:'center'}}>
-                    <Placeholder/>
+                <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row'}}>
+                    <div className='vertical-line'/>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+                        <p className="text-english"><span className="text-chinese">婚礼请柬</span><span> | Wedding Invitation</span></p>
+                        <p className="text-english">SAVE THE DATE</p>
+                        <p className="text-english"><span>October 5th 2024 | </span><span className="text-chinese">2024年10月5号</span></p>
+                        <p className="text-english"><span>3 PM | </span><span className="text-chinese">下午3点</span></p>
+                        <img src='../../public/img-wedding-invitation/couple-drawing/couple.png' style={{objectFit:'contain', width:'30%', margin:'1rem'}}/>
+                        <p className="text-english">VILLA GUICCIARDINI</p>
+                        <p className="text-english">Via Nuova Per Migliana 1,</p>
+                        <p className="text-english">Cantagallo, PO 59025 IT</p>
+                    </div>
                 </div>
             </div>
 
