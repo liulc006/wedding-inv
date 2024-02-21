@@ -42,6 +42,18 @@ const App = () => {
                 <img src='../../public/img-wedding-invitation/photo-img/KSZ09591.jpg' style={{objectFit:'contain',width:'100vw'}}/>
             </div>
 
+            {/* Third Section: wedding time and location */}
+            <div style={{marginTop:'5vh', display:'flex', flexDirection:'row', justifyContent:'space-around', alignItems:'center'}}>
+                <div style={{flex:'1', display:'flex', justifyContent:'center'}}>
+                    <img src='../../public/img-wedding-invitation/photo-img/DSC09661.jpg' 
+                    style={{objectFit:'contain', width:'80%'}}
+                    />
+                </div>
+                <div style={{flex:'1', display:'flex', justifyContent:'center'}}>
+                    <Placeholder/>
+                </div>
+            </div>
+
         </>
     );
 };
