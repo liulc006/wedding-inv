@@ -73,6 +73,23 @@ const App = () => {
                 </div>
             </div>
 
+            {/* Fifth Section: Groom */}
+            <div style={{marginTop:'1rem', display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
+                <div style={{flex:'1'}}>
+                    <img src='../../public/img-wedding-invitation/photo-img/DSC09715.jpg' style={{objectFit:'contain', width:'100%'}}/>
+                </div>
+                <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row'}}>
+                    <div className='vertical-line'/>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'min-content'}}>
+                        <p className="text-english"><span className="text-chinese">新郎</span><span> | Groom</span></p>
+                        <p className="text-english">LUCA</p>
+                        <br/>
+                        <p className="text-english"><span className="text-chinese">父母</span><span> | Parents</span></p>
+                        <p className="text-english">刘建伸 & 姚作</p>
+                    </div>
+                </div>
+            </div>
+
             {/* Footer */}
             <div style={{margin:'2rem 0 1rem 0',display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', borderTop:'1px solid #AB6874'}}>
                 <p className="text-english" style={{fontSize:'1rem', paddingTop:'1rem'}}>Designed by <a href='https://portfolio-byzk.onrender.com/'>Luca</a></p>
