@@ -45,3 +45,12 @@ body {
     text-align: center;
     font-weight: normal;
 }
+
+.horizontal-line {
+    color: var(--dark-pink);
+    background-color: var(--dark-pink);
+    border-color: var(--dark-pink);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-style: none;
+}

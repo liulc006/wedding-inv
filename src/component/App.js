@@ -23,9 +23,14 @@ const App = () => {
                 </div>
 
                 {/* Message */}
-                <div style={{height:'100%', flex:'3'}}>
-                    {/*TODO Message */}
-                    <Placeholder text='Text 1'/>
+                <div style={{height:'100%', flex:'3',display:'flex', flexDirection:'column', flexWrap:'nowrap', justifyContent:'center', alignItems:'center'}}>
+                    <hr className="horizontal-line" style={{width:'8rem'}}/>
+                    <hr className="horizontal-line" style={{width:'16rem'}}/>
+                    <p>WE ARE GETTING MARRIED</p>
+                    <p>我们要结婚啦</p>
+                    <p><span>October 5th 2024 | </span><span>2024年10月5号</span></p>
+                    <hr className="horizontal-line" style={{width:'16rem'}}/>
+                    <hr className="horizontal-line" style={{width:'8rem'}}/>
                 </div>
             </div>
 
