@@ -56,7 +56,7 @@ const App = () => {
                         <p className="text-english">SAVE THE DATE</p>
                         <p className="text-english"><span>October 5th 2024 | </span><span className="text-chinese">2024年10月5号</span></p>
                         <p className="text-english"><span>3 PM | </span><span className="text-chinese">下午3点</span></p>
-                        <img src='../../public/img-wedding-invitation/couple-drawing/couple.png' style={{objectFit:'contain', width:'30%', margin:'1rem'}}/>
+                        <img src='../../public/img-wedding-invitation/couple-drawing/rings.png' style={{objectFit:'contain', width:'30%', margin:'1rem'}}/>
                         <p className="text-english">VILLA GUICCIARDINI</p>
                         <p className="text-english">Via Nuova Per Migliana 1,</p>
                         <p className="text-english">Cantagallo, PO 59025 IT</p>
