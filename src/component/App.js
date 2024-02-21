@@ -64,6 +64,21 @@ const App = () => {
                 </div>
             </div>
 
+            {/* Fourth Section: Wedding Invitation Card */}
+            <div style={{marginTop:'5vh', display:'flex', justifyContent:'center'}}>
+                <div className='invite-card' style={{width:'60vw', display:'flex', justifyContent:'center', alignItems:'center'}}>
+                    <img src='../../public/img-wedding-invitation/invitation-img/Invite.png'
+                    style={{objectFit:'contain', width:'100%'}}
+                    />
+                </div>
+            </div>
+
+            {/* Footer */}
+            <div style={{margin:'2rem 0 1rem 0',display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', borderTop:'1px solid #AB6874'}}>
+                <p className="text-english" style={{fontSize:'1rem', paddingTop:'1rem'}}>Designed by <a href='https://portfolio-byzk.onrender.com/'>Luca</a></p>
+                <p className="text-english" style={{fontSize:'1rem'}}>© 2024 Copyright Luca Liu</p>
+            </div>
+
         </>
     );
 };

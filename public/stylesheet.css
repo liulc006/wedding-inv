@@ -85,6 +85,16 @@ body {
     margin-right: 1rem;
 }
 
+.invite-card {
+    border: 10px solid;
+    border-color: var(--dark-pink);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: None;
+}
+
 @media (max-width: 900px) {
     /* .text-chinese {
         font-size: 0.75rem;
