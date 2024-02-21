@@ -46,6 +46,23 @@ body {
     font-weight: normal;
 }
 
+.text-english {
+    font-family: 'Aref Ruqaa';
+    font-weight: bold;
+    font-size: 2vw;
+    text-wrap: nowrap;
+    text-justify: center;
+    color: var(--bright-white);
+}
+
+.text-chinese {
+    font-family: 'Ma Shan Zheng';
+    font-size: 2.5vw;
+    text-wrap: nowrap;
+    text-justify: center;
+    color: var(--bright-white);
+}
+
 .horizontal-line {
     color: var(--dark-pink);
     background-color: var(--dark-pink);
@@ -53,4 +70,14 @@ body {
     border-style: solid;
     border-width: 1px;
     border-bottom-style: none;
+}
+
+@media (max-width: 900px) {
+    /* .text-chinese {
+        font-size: 0.75rem;
+    } */
+
+    /* .text-english {
+        font-size: 0.5rem;
+    } */
 }
