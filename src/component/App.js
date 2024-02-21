@@ -6,7 +6,7 @@ const App = () => {
     return (
         <>
             {/* Title */}
-            <div>
+            <div style={{width:'100vw'}}>
                 <h1 className="title" id="title">Celine & Luca</h1>
             </div>
 
@@ -32,6 +32,14 @@ const App = () => {
                     <hr className="horizontal-line" style={{width:'60%'}}/>
                     <hr className="horizontal-line" style={{width:'25%'}}/>
                 </div>
+            </div>
+
+            {/* Second Section */}
+            <div style={{marginTop:'5vh'}}>
+                <div style={{position:'relative', display:'flex', justifyContent:'center'}}>
+                    <h1 className="title" id="title" style={{marginTop:'10%', fontSize:'8vw', position:'absolute', zIndex:'100'}}>Welcome To Our Wedding</h1>
+                </div>
+                <img src='../../public/img-wedding-invitation/photo-img/KSZ09591.jpg' style={{objectFit:'contain',width:'100vw'}}/>
             </div>
 
         </>
