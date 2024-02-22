@@ -74,7 +74,7 @@ const App = () => {
             </div>
 
             {/* Fifth Section: Groom */}
-            <div style={{marginTop:'1rem', display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
+            <div style={{marginTop:'5vh', display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
                 <div style={{flex:'1', display:"flex", alignItems:'end'}}>
                     <img src='../../public/img-wedding-invitation/photo-img/DSC09715.jpg' style={{objectFit:'contain', width:'100%'}}/>
                 </div>
@@ -109,6 +109,13 @@ const App = () => {
                 <div style={{flex:'1',display:"flex", alignItems:'start'}}>
                     <img src='../../public/img-wedding-invitation/photo-img/DSC09629.jpg' style={{objectFit:'contain', width:'100%'}}/>
                 </div>
+            </div>
+
+            {/* Seventh Section: Countdown Timer */}
+
+            {/* Eight Section: Google Maps of the venue */}
+            <div style={{marginTop:'1rem', display:'flex', justifyContent:'center', width:'100%'}}>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.9274457831175!2d11.123647375726886!3d43.98154997108838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132af04f0ddecf27%3A0xb7af2ff43138041e!2sVilla%20Guicciardini!5e0!3m2!1sen!2sus!4v1708568574734!5m2!1sen!2sus" style={{width:'50%',aspectRatio:'3/2', style:"border:0", loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}></iframe>
             </div>
 
             {/* Footer */}
