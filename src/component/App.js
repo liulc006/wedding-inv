@@ -75,18 +75,39 @@ const App = () => {
 
             {/* Fifth Section: Groom */}
             <div style={{marginTop:'1rem', display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
-                <div style={{flex:'1'}}>
+                <div style={{flex:'1', display:"flex", alignItems:'end'}}>
                     <img src='../../public/img-wedding-invitation/photo-img/DSC09715.jpg' style={{objectFit:'contain', width:'100%'}}/>
                 </div>
-                <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row'}}>
+                <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row', height:'100%'}}>
+                    <img src='public/img-wedding-invitation/couple-drawing/groom.png' style={{objectFit:'contain', width:'5vw'}}/>
                     <div className='vertical-line'/>
                     <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'min-content'}}>
                         <p className="text-english"><span className="text-chinese">新郎</span><span> | Groom</span></p>
                         <p className="text-english">LUCA</p>
                         <br/>
+                        <br/>
                         <p className="text-english"><span className="text-chinese">父母</span><span> | Parents</span></p>
                         <p className="text-english">刘建伸 & 姚作</p>
                     </div>
+                </div>
+            </div>
+
+            {/* Sixth Section: Bride */}
+            <div style={{display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'center'}}>
+                <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row', height:'100%'}}>
+                    <img src='public/img-wedding-invitation/couple-drawing/bride.png' style={{objectFit:'contain', width:'10vw'}}/>
+                    <div className='vertical-line'/>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'min-content'}}>
+                        <p className="text-english"><span className="text-chinese">新娘</span><span> | Bride</span></p>
+                        <p className="text-english">CELINE</p>
+                        <br/>
+                        <br/>
+                        <p className="text-english"><span className="text-chinese">父母</span><span> | Parents</span></p>
+                        <p className="text-english">李賢文 & 廖秀玲</p>
+                    </div>
+                </div>
+                <div style={{flex:'1',display:"flex", alignItems:'start'}}>
+                    <img src='../../public/img-wedding-invitation/photo-img/DSC09629.jpg' style={{objectFit:'contain', width:'100%'}}/>
                 </div>
             </div>
 
