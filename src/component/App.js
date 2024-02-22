@@ -39,7 +39,7 @@ const App = () => {
                 <div style={{position:'relative', display:'flex', justifyContent:'center'}}>
                     <h1 className="title" id="title" style={{marginTop:'10%', fontSize:'8vw', position:'absolute', zIndex:'100'}}>Welcome To Our Wedding</h1>
                 </div>
-                <img src='../../public/img-wedding-invitation/photo-img/KSZ09591.jpg' style={{objectFit:'contain',width:'100vw'}}/>
+                <img src='../../public/img-wedding-invitation/photo-img/KSZ09591.JPG' style={{objectFit:'contain',width:'100vw'}}/>
             </div>
 
             {/* Third Section: wedding time and location */}
@@ -67,7 +67,7 @@ const App = () => {
             {/* Fourth Section: Wedding Invitation Card */}
             <div style={{marginTop:'5vh', display:'flex', justifyContent:'center'}}>
                 <div className='invite-card' style={{width:'60vw', display:'flex', justifyContent:'center', alignItems:'center'}}>
-                    <img src='../../public/img-wedding-invitation/invitation-img/Invite.png'
+                    <img src='../../public/img-wedding-invitation/invitation-img/invite.png'
                     style={{objectFit:'contain', width:'100%'}}
                     />
                 </div>
