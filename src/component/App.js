@@ -1,6 +1,7 @@
 import React from "react";
 import Placeholder from "./Placeholder";
 import StadiumImage from "./StadiumImage";
+import CountdownTimer from "./CountdownTimer";
 
 const App = () => {
     return (
@@ -112,6 +113,9 @@ const App = () => {
             </div>
 
             {/* Seventh Section: Countdown Timer */}
+            <div style={{margin:'5vh 0 5vh 0', display:'flex',justifyContent:'center', alignItems:'center', width:'100vw'}}>
+                <CountdownTimer />
+            </div>
 
             {/* Eight Section: Google Maps of the venue */}
             <div style={{marginTop:'1rem', display:'flex', justifyContent:'center', width:'100%'}}>

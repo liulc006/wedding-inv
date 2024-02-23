@@ -93,6 +93,18 @@ body {
     border-radius: 10px;
 }
 
+.countdown-box {
+    /* background-color: var(--dark-pink); */
+    border-radius: 20px;
+    width: 9rem;
+    aspect-ratio: 1/1;
+    padding: 1rem;
+}
+
+.married-box {
+    background-color: var(--dark-pink);
+};
+
 a {
     text-decoration: None;
 }
