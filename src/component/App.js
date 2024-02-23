@@ -124,6 +124,24 @@ const App = () => {
                 </div>
             </div>
 
+
+            {/* Ninth Section */}
+            <div style={{marginTop:'5vh'}}>
+                <img src='../../public/img-wedding-invitation/photo-img/DSC09616.jpg' style={{objectFit:'contain',width:'100vw'}}/>
+            </div>
+
+            
+            {/* Tenth Section */}
+            <div style={{margin:'5vh 0 5vh 0', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+                <p className="text-english">
+                    Thank You!
+                </p>
+                <p className="text-english">
+                    <span className="text-english">See you at the wedding! </span>
+                    <span className="text-chinese">婚礼见！</span>
+                </p>
+            </div>
+
             {/* Footer */}
             <div style={{margin:'2rem 0 1rem 0',display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', borderTop:'1px solid #AB6874'}}>
                 <p className="text-english" style={{fontSize:'1rem', paddingTop:'1rem'}}>Designed by <a href='https://portfolio-byzk.onrender.com/'>Luca</a></p>
