@@ -100,6 +100,7 @@ body {
     width: min-content;
     aspect-ratio: 1/1;
     padding: 1rem;
+    width:100%;
 }
 
 .married-box {

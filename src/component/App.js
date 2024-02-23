@@ -84,7 +84,7 @@ const App = () => {
                 <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row', height:'100%'}}>
                     <img src='public/img-wedding-invitation/couple-drawing/groom.png' style={{objectFit:'contain', width:'5vw'}}/>
                     <div className='vertical-line'/>
-                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'min-content', flexWrap:'nowrap'}}>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'100%', flexWrap:'nowrap'}}>
                         <p className="text-english"><span className="text-chinese">新郎</span><span> | Groom</span></p>
                         <p className="text-english">LUCA</p>
                         <br/>
@@ -100,7 +100,7 @@ const App = () => {
                 <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row', height:'100%'}}>
                     <img src='public/img-wedding-invitation/couple-drawing/bride.png' style={{objectFit:'contain', width:'10vw'}}/>
                     <div className='vertical-line'/>
-                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'min-content', flexWrap:'nowrap'}}>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'100%', flexWrap:'nowrap'}}>
                         <p className="text-english"><span className="text-chinese">新娘</span><span> | Bride</span></p>
                         <p className="text-english">CELINE</p>
                         <br/>
