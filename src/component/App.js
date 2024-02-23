@@ -52,7 +52,7 @@ const App = () => {
                 </div>
                 <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row', width:'100%'}}>
                     <div className='vertical-line'/>
-                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'min-content', flexWrap:'nowrap', textWrap:'nowrap'}}>
+                    <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'max-content', flexWrap:'nowrap', textWrap:'nowrap'}}>
                         <p className="text-english"><span className="text-chinese">婚礼请柬</span><span> | Wedding Invitation</span></p>
                         <p className="text-english">SAVE THE DATE</p>
                         <p className="text-english"><span>October 5th 2024 | </span><span className="text-chinese">2024年10月5号</span></p>
