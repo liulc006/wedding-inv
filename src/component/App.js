@@ -50,7 +50,7 @@ const App = () => {
                     style={{objectFit:'contain', width:'80%'}}
                     />
                 </div>
-                <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row'}}>
+                <div style={{flex:'1', display:'flex', justifyContent:'center', flexDirection:'row', width:'100%'}}>
                     <div className='vertical-line'/>
                     <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'min-content'}}>
                         <p className="text-english"><span className="text-chinese">婚礼请柬</span><span> | Wedding Invitation</span></p>
