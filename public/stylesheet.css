@@ -96,7 +96,7 @@ body {
 .countdown-box {
     /* background-color: var(--dark-pink); */
     border-radius: 20px;
-    width: 9rem;
+    width: min-content;
     aspect-ratio: 1/1;
     padding: 1rem;
 }
