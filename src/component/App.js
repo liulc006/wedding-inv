@@ -2,6 +2,7 @@ import React from "react";
 import Placeholder from "./Placeholder";
 import StadiumImage from "./StadiumImage";
 import CountdownTimer from "./CountdownTimer";
+import SurveyForm from "./SurveyForm";
 
 const App = () => {
     return (
@@ -115,6 +116,10 @@ const App = () => {
             {/* Seventh Section: Countdown Timer */}
             <div style={{margin:'5vh 0 5vh 0', display:'flex',justifyContent:'center', alignItems:'center', width:'100vw'}}>
                 <CountdownTimer />
+            </div>
+
+            <div style={{margin:'1vh 0 1vh 0', display:'flex',justifyContent:'center', alignItems:'center', width:'100vw'}}>
+                <SurveyForm />
             </div>
 
             {/* Eight Section: Google Maps of the venue */}
