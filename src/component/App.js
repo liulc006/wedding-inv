@@ -118,6 +118,7 @@ const App = () => {
                 <CountdownTimer />
             </div>
 
+            {/* Confirmation Survey */}
             <div style={{margin:'1vh 0 1vh 0', display:'flex',justifyContent:'center', alignItems:'center', width:'100vw'}}>
                 <SurveyForm />
             </div>
