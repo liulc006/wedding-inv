@@ -44,7 +44,7 @@ const CountdownTimer = (props) => {
             <div className='married-box' style={{width:'min-content', borderRadius:'20px', display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center'}}>
                 <div className='countdown-box' style={{margin:'0 1vw 0 1vw', display:'flex', flexDirection:'column', justifyContent:'space-evenly', alignItems:'center'}}>
                     <p className="text-english">{input.days}</p>
-                    <p style={{margin:'0'}}><span className="text-english">Days |</span><span className="text-chinese"> 天</span></p>
+                    <p style={{margin:'0', width:'min-content'}}><span className="text-english">Days |</span><span className="text-chinese"> 天</span></p>
                 </div>
                 <div style={{display:'flex', flexDirection:'column', height:'100%'}}>
                     <p className="text-english">:</p>
