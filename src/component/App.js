@@ -3,10 +3,14 @@ import Placeholder from "./Placeholder";
 import StadiumImage from "./StadiumImage";
 import CountdownTimer from "./CountdownTimer";
 import SurveyForm from "./SurveyForm";
+import MusicPlayer from "./MusicPlayer";
 
 const App = () => {
     return (
         <>
+            <>
+                <MusicPlayer/>
+            </>
             {/* Title */}
             <div style={{width:'100vw'}}>
                 <h1 className="title" id="title">Celine & Luca</h1>
