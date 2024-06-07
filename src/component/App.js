@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Placeholder from "./Placeholder";
 import StadiumImage from "./StadiumImage";
 import CountdownTimer from "./CountdownTimer";
@@ -7,7 +7,7 @@ import MusicPlayer from "./MusicPlayer";
 
 const App = () => {
     return (
-        <>
+        <div>
             <>
                 <MusicPlayer/>
             </>
@@ -158,7 +158,7 @@ const App = () => {
                 <p className="text-english" style={{fontSize:'1rem'}}>© 2024 Copyright Luca Liu</p>
             </div>
 
-        </>
+        </div>
     );
 };
 
