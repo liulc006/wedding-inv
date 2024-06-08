@@ -9,6 +9,7 @@ const App = () => {
     return (
         <div>
             <>
+            {/* Background Audio + Opening Button */}
                 <MusicPlayer/>
             </>
             {/* Title */}

@@ -8,7 +8,7 @@ const MusicPlayer = () => {
     const [play, {stop}] = useSound(music, { volume: 0.5});
 
     useEffect(()=> {
-        if(playing){
+        if(playing || open){
             console.log('playing')
             play();
         } else{
@@ -17,8 +17,10 @@ const MusicPlayer = () => {
     }, [playing]);
 
     const handlePlay = () => {
-        setPlaying(true);
-        setOpen(true);
+        if(document.readyState === 'complete'){
+            setPlaying(true);
+            setOpen(true);
+        }
     };
 
     return (
@@ -48,21 +50,24 @@ const MusicPlayer = () => {
                 transition: 'ease-in 2s'
             }}>
             </div>
-            <button 
+            {document.readyState==='complete' ?
+                <img 
+                src="../../public/img-wedding-invitation/invitation-img/sigil.png"
                 style={{
                     position:'fixed',
                     zIndex:'1000',
-                    width:'5rem',
-                    height:'5rem',
-                    top:'calc(50% - 2.5rem)',
-                    right:(open ? '-100%':'calc(50% - 2.5rem)'),
-                    // transition: 'ease-in 2s'
+                    width:'16vh',
+                    height:'16vh',
+                    top:'calc(50% - 8vh)',
+                    right:(open ? '-100%':'calc(50% - 8vh)'),
+                    objectFit:'cover',
+                    border:'solid 5px var(--dark-pink)',
+                    borderRadius:'100%',                    
                 }}
                 id='music-button'
                 onClick={handlePlay} 
-            >
-                Open
-            </button>
+                />
+            : <div></div>}
         </>
     );
 };
