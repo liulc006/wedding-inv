@@ -74,7 +74,7 @@ const App = () => {
 
             {/* Fourth Section: Wedding Invitation Card */}
             <div style={{marginTop:'5vh', display:'flex', justifyContent:'center'}}>
-                <div className='invite-card' style={{width:'60vw', display:'flex', justifyContent:'center', alignItems:'center'}}>
+                <div className='invite-card' style={{width:'80vw', display:'flex', justifyContent:'center', alignItems:'center'}}>
                     <img src='../../public/img-wedding-invitation/invitation-img/invite.png'
                     style={{objectFit:'contain', width:'100%'}}
                     />
@@ -131,7 +131,7 @@ const App = () => {
 
             {/* Eight Section: Google Maps of the venue */}
             <div style={{marginTop:'1rem', display:'flex', justifyContent:'center', width:'100%'}}>
-                <div className='invite-card' style={{width:'50%', display:'flex', justifyContent:'center', alignItems:'center'}}>
+                <div className='invite-card' style={{width:'80%', display:'flex', justifyContent:'center', alignItems:'center'}}>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.9274457831175!2d11.123647375726886!3d43.98154997108838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132af04f0ddecf27%3A0xb7af2ff43138041e!2sVilla%20Guicciardini!5e0!3m2!1sen!2sus!4v1708568574734!5m2!1sen!2sus" style={{width:'100%',aspectRatio:'3/2', style:"border:0", loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}></iframe>
                 </div>
             </div>
