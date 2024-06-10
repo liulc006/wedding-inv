@@ -1,57 +1,41 @@
-import React, {useState, useEffect} from "react";
-import useSound from "use-sound";
+import React, {useState} from "react";
 import music from '../../public/Perfect-EdSheeran.mp3';
 
 const MusicPlayer = () => {
-    const [playing, setPlaying] = useState(false);
-    const [open, setOpen] = useState(false);
-    const [play, {stop}] = useSound(music, { volume: 0.5});
-
-    useEffect(()=> {
-        if(playing || open){
-            console.log('playing')
-            play();
-        } else{
-            stop();
-        }
-    }, [playing]);
-
+    const [open, setOpen] = useState(false)
     const handlePlay = () => {
-        if(document.readyState === 'complete'){
-            setPlaying(true);
-            setOpen(true);
-        }
+        new Audio(music).play()
+        setOpen(true)
     };
 
     return (
         <>
-            <div style={{
-                position:'fixed',
-                width:'50vw',
-                height:'100vh',
-                top:'0',
-                left:(open ? "-100%" : "0"),
-                backgroundColor: 'var(--dark-pink)',
-                opacity:'0.7',
-                zIndex:'900',
-                transition: 'ease-in 2s'
-            }}>
-            </div>
-            <div style={{
-                position:'fixed',
-                width:'50vw',
-                height:'100vh',
-                top:'0',
-                right:(open ? "-100%" : "0"),
-                backgroundColor:'var(--dark-pink)',
-                borderLeft:'solid 5px var(--dark-pink)',
-                opacity:'0.7',
-                zIndex:'900',
-                transition: 'ease-in 2s'
-            }}>
-            </div>
-            {document.readyState==='complete' ?
-                <img 
+        <div style={{
+            position:'fixed',
+            width:'50vw',
+            height:'100vh',
+            top:'0',
+            left:(open ? "-100%" : "0"),
+            backgroundColor: 'var(--dark-pink)',
+            opacity:'0.7',
+            zIndex:'900',
+            transition: 'ease-in 2s'
+        }}>
+        </div>
+        <div style={{
+            position:'fixed',
+            width:'50vw',
+            height:'100vh',
+            top:'0',
+            right:(open ? "-100%" : "0"),
+            backgroundColor:'var(--dark-pink)',
+            borderLeft:'solid 5px var(--dark-pink)',
+            opacity:'0.7',
+            zIndex:'900',
+            transition: 'ease-in 2s'
+        }}>
+        </div>
+            <img 
                 src="../../public/img-wedding-invitation/invitation-img/sigil.png"
                 style={{
                     position:'fixed',
@@ -66,9 +50,8 @@ const MusicPlayer = () => {
                 }}
                 id='music-button'
                 onClick={handlePlay} 
-                />
-            : <div></div>}
-        </>
+            />
+    </>
     );
 };
 
