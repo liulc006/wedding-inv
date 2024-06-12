@@ -95,7 +95,7 @@ const App = () => {
                         <br/>
                         <br/>
                         <p className="text-english"><span className="text-chinese">父母</span><span> | Parents</span></p>
-                        <p className="text-english">刘建伸 & 姚作</p>
+                        <p className="text-english">刘建申 & 姚作</p>
                     </div>
                 </div>
             </div>
