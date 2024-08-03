@@ -67,6 +67,21 @@ body {
     margin:0;
 }
 
+.nav-text-english {
+    font-family: 'Aref Ruqaa';
+    font-weight: bold;
+    font-size: 2vw;
+    text-wrap: nowrap;
+    text-justify: center;
+    color: var(--bright-white);
+    margin:0;
+    transition: 0.5s ease-in;
+}
+
+.nav-text-english:hover {
+    color:#AB6874;
+}
+
 .horizontal-line {
     color: var(--dark-pink);
     background-color: var(--dark-pink);
