@@ -48,6 +48,16 @@ body {
     font-weight: normal;
 }
 
+.title-text-english {
+    font-family: 'Aref Ruqaa';
+    font-weight: bold;
+    font-size: 4vw;
+    text-wrap: nowrap;
+    text-justify: center;
+    color: var(--dark-pink);
+    margin:0;
+}
+
 .text-english {
     font-family: 'Aref Ruqaa';
     font-weight: bold;

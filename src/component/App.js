@@ -12,7 +12,7 @@ const App = () => {
         <div>
             <>
             {/* Background Audio + Opening Button */}
-                <MusicPlayer/>
+                {/* <MusicPlayer/> */}
             </>
             {/* Title */}
             <div style={{width:'100vw'}}>
@@ -22,7 +22,7 @@ const App = () => {
             </div>
 
             {/* Navigator */}
-            <div style={{width:'100%vw', display:'flex', flexDirection:'row', justifyContent:'space-around', alignItems:'center'}}>
+            <div style={{width:'100%vw', display:'flex', flexDirection:'row', justifyContent:'space-around', alignItems:'center', marginBottom:'2rem'}}>
                 <div>
                     <a className="nav-text-english" href="#/friday" style={{textDecoration:'none'}} on>Friday (4th)</a>
                 </div>
@@ -34,7 +34,7 @@ const App = () => {
                 </div>
             </div>
 
-            <div style={{minHeight:'80vh'}}>
+            <div>
                 <Routes>
                     <Route path="/" element={ <Home /> }></Route>
                     <Route path="/friday" element={ <Friday /> }></Route>
