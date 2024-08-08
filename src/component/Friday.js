@@ -15,7 +15,6 @@ const Friday = () => {
                 </iframe>
             </div>
         </div>
-
     );
 };
 
