@@ -77,6 +77,35 @@ body {
     margin:0;
 }
 
+.title-text-english-tab {
+    font-family: 'Aref Ruqaa';
+    font-weight: bold;
+    font-size: 4vw;
+    text-wrap: nowrap;
+    text-justify: center;
+    color: var(--dark-pink);
+    margin:0;
+}
+
+.text-english-tab {
+    font-family: 'Aref Ruqaa';
+    font-weight: bold;
+    font-size: 2vw;
+    text-wrap: nowrap;
+    text-justify: center;
+    color: var(--bright-white);
+    margin:0;
+}
+
+.text-chinese-tab {
+    font-family: 'Ma Shan Zheng';
+    font-size: 2.5vw;
+    text-wrap: nowrap;
+    text-justify: center;
+    color: var(--bright-white);
+    margin:0;
+}
+
 .nav-text-english {
     font-family: 'Aref Ruqaa';
     font-weight: bold;
@@ -136,11 +165,15 @@ a {
 }
 
 @media (max-width: 900px) {
-    /* .text-chinese {
-        font-size: 0.75rem;
-    } */
+    .text-chinese-tab {
+        font-size: 4vw;
+    }
 
-    /* .text-english {
-        font-size: 0.5rem;
-    } */
+    .text-english-tab {
+        font-size: 4vw;
+    }
+
+    .nav-text-english {
+        font-size: 4vw;
+    }
 }
