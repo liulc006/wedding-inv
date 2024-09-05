@@ -12,7 +12,7 @@ const App = () => {
         <div>
             <>
             {/* Background Audio + Opening Button */}
-                {/* <MusicPlayer/> */}
+                <MusicPlayer/>
             </>
             {/* Title */}
             <div style={{width:'100vw'}}>
