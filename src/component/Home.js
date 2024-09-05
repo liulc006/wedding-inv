@@ -113,10 +113,10 @@ const Home = () => {
                 <CountdownTimer />
             </div>
 
-            {/* Confirmation Survey */}
+            {/* Confirmation Survey
             <div style={{margin:'1vh 0 1vh 0', display:'flex',justifyContent:'center', alignItems:'center', width:'100vw'}}>
                 <SurveyForm />
-            </div>
+            </div> */}
 
             {/* Eight Section: Google Maps of the venue */}
             <div style={{marginTop:'1rem', display:'flex', justifyContent:'center', width:'100%'}}>

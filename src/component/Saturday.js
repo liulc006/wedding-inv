@@ -14,6 +14,20 @@ const Saturday = () => {
                     style={{width:"600", height:"450", style:"border:0", allowfullscreen:"", loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}>    
                 </iframe>
             </div>
+            <div style={{marginTop:'2rem', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center ', maxWidth:'90vw', border:"3px solid var(--dark-pink", borderRadius:'10px'}}>
+                <p className="text-english-tab" style={{maxWidth:'100vw', textWrap:'wrap', textAlign:'center', color:'var(--dark-pink)'}}>Shuttle From Hotel To Villa </p>
+                <p className="text-english-tab" style={{maxWidth:'100vw', textWrap:'wrap', textAlign:'center'}}>- There will be a shuttle going from the hotel to the villa for wedding guests</p>
+                <p className="text-english-tab" style={{maxWidth:'100vw', textWrap:'wrap', textAlign:'center'}}>- Shuttle leaves at <span style={{color:'var(--dark-pink)'}}>2:30 PM</span>, make sure to be ready beforehand</p>
+                <p className="text-english-tab" style={{maxWidth:'100vw', textWrap:'wrap', textAlign:'center'}}>- In the case that you won't be able to take the shuttle, you can take a taxi. The villa is around 30 minutes ride from the hotel around 10 miles away.</p>                
+                <p className="text-english-tab" style={{maxWidth:'100vw', textWrap:'wrap', textAlign:'center'}}>- For lunch, you can explore some options around the hotel:</p>
+                <ul>
+                    <li className="text-english-tab">Umai Ramen Prato</li>
+                    <li className="text-english-tab">Il Sipario</li>
+                    <li className="text-english-tab">MiAmi Ristorante Pizzeria</li>
+                    <li className="text-english-tab">Bar Pasticceria Saida Prato</li>
+                    <li className="text-english-tab">Etc...</li>
+                </ul>
+            </div>
         </div>
     );
 };
